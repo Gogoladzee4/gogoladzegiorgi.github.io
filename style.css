@@ -185,4 +185,7 @@ transition: 0.6s;
     .navigation li{
         margin-left: -10px;
     }
+    a i{
+        margin-top: 5px;
+    }
 }
