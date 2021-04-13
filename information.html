@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gogoladze Giorgi's Portofolio</title>
+    <script src="https://kit.fontawesome.com/d4dec246e5.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="https://cdn0.iconfinder.com/data/icons/occupation-002-1/64/programmer-programming-occupation-avatar-512.png">
+</head>
+<body>
+    <nav class="navigation">
+        <div align="right">
+            <a href="main.html"><li>Home</li></a>
+        <a href="information.html"><li>View Information</li></a>
+        <a href="project.html"><li>View Projects</li></a>
+        <a href="https://www.facebook.com/messages/t/100040927415326"><li>Contact</li></a>
+    </div>
+    </nav>
+    <br><br><br><br>
+        <div class="home">
+            <div align="center">
+            <div class="container">
+                <br>
+                <div class="rec" align="left">
+                    <div style="background: orangered;" class="rectangle"></div>
+                    <div style="background: rgb(241, 241, 2);" class="rectangle"></div>
+                    <div style="background: rgb(7, 206, 7);" class="rectangle"></div>
+
+                </div>
+                <div align="center">
+          <div class="mini-icon">
+            <img src="https://scontent.ftbs5-2.fna.fbcdn.net/v/t1.0-9/162224935_488828872491356_8201521782061239592_o.jpg?_nc_cat=101&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=ogqM2rG6qDsAX-UPRvQ&_nc_ht=scontent.ftbs5-2.fna&oh=5524bc6b03a6650657e1e9804d041423&oe=6086F1DB">
+        <h1>Gogoladze Giorgi Front-end Developer</h1>  
+        </div>
+          <br><br><br>
+          <div class="desc-text">
+            <p style=" cursor: default;color: rgb(0, 0, 0);" class="text-info">Hello I am Giorgi Gogoladze, frond-end developer looking for a job  (you can see my skills on the first page) Contact me on  Facebook  ☕ <a class="socialmedia" href="https://www.facebook.com/Gogoladzee.giorgi/"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <script>
+             $(document).ready(function(){
+$(window).scroll(function(){
+    if(this.scrollY > 20){
+        $('.navigation').addClass("sticky");
+
+    }else{
+        $('.navigation').removeClass("sticky");
+    }
+});
+});
+$(document).ready(function(){
+$(window).scroll(function(){
+    if(this.scrollY > 20){
+        $('.navigation li').addClass("sqroli");
+
+    }else{
+        $('.navigation li').removeClass("sqroli");
+    }
+});
+});
+        </script>
+        </body>
+        </html>
