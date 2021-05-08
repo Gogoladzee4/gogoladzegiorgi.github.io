@@ -35,6 +35,7 @@ li.sqroli{
 .profile-photo{
     width: 150px;
     height: 150px;
+    z-index: 1111111111;
     border-radius: 50%;
 }
 .prof-area{
