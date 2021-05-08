@@ -61,7 +61,6 @@ a i{
     margin-top: -200px;
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 5%;
-    position: absolute;
 }
 ::selection{
    background: rgb(255, 32, 77);
