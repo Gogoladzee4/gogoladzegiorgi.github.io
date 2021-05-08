@@ -195,6 +195,11 @@ $(document).ready(function(){
              $('.skills').toggle();
          });
 });
+        let box = document.getElementByClassName('flex-box');
+        window.addEventListener('scroll' function(){
+            let value = window.scrollY;
+            box.style.top = value * -1 'px'; 
+        })
         </script>
 </body>
 </html>
