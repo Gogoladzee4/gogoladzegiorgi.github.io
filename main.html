@@ -74,6 +74,30 @@
             </div>
             <br><br>
     </div>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution="biz_inbox"
+        page_id="112709297578657">
+      </div>
     <div class="social">
         <a style="color: black; font-size: 23px; margin-left: 15px;" href="https://github.com/Gogoladzee4"><i class="fab fa-github"></i></a>
         <a  style="color: black; font-size: 23px; margin-left: 15px;" href="https://www.facebook.com/Gogoladzee.giorgi"><i class="fab fa-facebook"></i></a>
