@@ -2,113 +2,63 @@
     margin: 0px;
     padding: 0px;
 }
- li{
-    display: inline-block;
-    color:  black;
-    margin-right: 20px;
-    margin-top: 18px;
-    font-family: OCR A Std, monospace;
-    font-weight: 900;
-}
-li.sqroli{
-    color: white;
-}
-.small{
-    font-size: 15px;
-    color:rgb(151, 151, 151);
-    display: inline-block;
-    cursor: default;
-}
-.name{
- font-size: 50px;
-    font-family: DejaVu Sans Mono, monospace;
-    cursor: default;
-    color: rgb(255, 255, 255);
-    text-shadow: 0 0 15px  rgba(255, 32, 77, 0.767), 0 0 10px  rgba(255, 32, 77, 0.767), 0 0 0px rgba(255, 32, 77, 0.767);
-}
-.inf{
-    font-size: 30px;
-    font-family: DejaVu Sans Mono, monospace;
-  margin-top: 20px;
-  cursor: default;
-}
-.profile-photo{
-    width: 150px;
-    height: 150px;
-    z-index: 1111111111;
-    border-radius: 50%;
-}
-.prof-area{
-    margin-top: 100px;
-    margin-left: 50px;
-    cursor: default;
-}
-a i{
-    font-size: 25px;
-    margin-right: 5px;
-    color: black;
-    margin-top: 10px;
-}
-.flex-box{
+.content{
     width: 100%;
-    display: block;
-    height: auto;
-    min-height: 400px;
-    background:  rgba(255, 32, 77, 0.767);
-    background: linear-gradient(to bottom, rgba(255, 32, 77, 0.767), rgba(196, 35, 67, 0.767));
-    border-top-left-radius: 30%;
-    border-top-right-radius: 20%;
-    margin-top: -200px;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 5%;
+    height:auto;
 }
-::selection{
-   background: rgb(255, 32, 77);
+.img img{
+    position: absolute;
+    display: inline-block;
+    margin-top: -280px;
+    margin-left: 50px;
+    height: 430px;
 }
-.skills{
-    color: white;
-    font-size: 25px;
-    font-family: FreeMono, monospace;
-    margin-left: 100px;
-    background: none;
-    border: none;
-    outline: none;
+#pxl{
     display: none;
 }
-
-.prof-area h1{
+.name-cont{
+    font-size: 25px;
     color: white;
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family: Bradley Hand, cursive;
+    display: inline-block;
+    text-shadow:  0px 0px 10px #411b9c, 0px 0px 10px #411b9c;
+    margin-right: 500px;
+    margin-top: 60px;
+    text-align: left;
+    position: sticky;
 }
-#toggle {
-    color: white;
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 20px;
-    background: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-.mini-icon img{
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    margin-left: 50px;
-    margin-top: 20px;
-}
-.container{
-    width: 90%;
-    height: 500px;
-    border: solid 1px rgb(146, 146, 146);
+.information{
+    width: 40%;
     border-radius: 10px;
-    box-shadow: 2px 2px 4px 4px rgb(173, 173, 173);
-    border: none;
+    font-family: OCR A Std, monospace;
+    margin-left: 150px;
+    height: 200px;
+    text-align: center;
 }
-.text-info{
-    font-family:  Trebuchet MS, sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    width: 500px;
+.information h3{
+    padding-top: 70px;
+}
+#prlx2{
+  width: 400px;
+    position: absolute;
+    margin-top: -270px;
+    width: 300px;
+    margin-left: 60px;
+}
+.projects{
+    height:auto;
+    width: 98%;
+    border-radius: 7px;
+    background-color: rgb(240, 240, 240);
+}
+.inf-card{
+    width: 96%;
+    margin-top: 120px;
+    height:  200px;
+    background-color: rgb(240, 240, 240);
+}.card{
+    width: 300px;
+    height: 320px;
 }
 .project-card{
     width: 300px;
@@ -120,31 +70,16 @@ a i{
     display: inline-block;
     margin-top: 50px;
 }
-.skills{
-    cursor: default;
-}
-.mini-icon h1{
-    font-size: 26px;
-    font-family: OCR A Std, monospace;
-}
-.rectangle{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    margin-left: 5px;
-    margin-top: 5px;
-    display: inline-block;
-
-}
-.rec{
-    margin-left: 50px;
-}
 .project-card .level2{
     width: 100%;
     height: 100%;
     border-radius: 20px; 
     transition: 0.6s;
     opacity: 0;
+}
+.project-card .level2:hover{
+    opacity: 1;
+    transition: 0.5s;
 }
 .view-proj{
     width: 140px;
@@ -159,34 +94,65 @@ a i{
     font-family: OCR A Std, monospace;
     cursor: pointer;
 }
-.project-card .level2:hover{
-opacity: 100;
-transition: 0.6s;
+.name {
+ font-family: OCR A Std, monospace;
+ display: inline-block;
 }
-.project-wrapper img{
-    width: 325px;
-    height: 325px;
-    border-radius: 10px;
-    margin-top: 10px;
+.social{
+    text-align: center;
+}
+.small{
+    font-family: OCR A Std, monospace;
+    display: inline-block;
+}
+.last{
+    width: 98%;
+    height: 400px;
+    background-color: #411b9c;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
 }
 @media all and (max-width: 500px){
-    .flex-box{
-    height: 500px;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    margin-top: -160px;
+    .img2{
+        display: none;
     }
-    ul .li{
-       margin-right: 10px;
-    }
-    .text-info{
-        width: 210px;
-        margin-top: -20px;
-    }
-    .navigation li{
-        margin-left: -10px;
-    }
-    a i{
-        margin-top: -10px;
-    }
+    #prlx{
+        display: none;
 }
+#pxl{
+    display: block;
+    position: absolute;
+    margin-top: -90px;
+    margin-right: 150px;
+    width: 350px;
+    height: 350px;
+}.img{
+    text-align: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+.information h3{
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+    margin-right: 60px;
+}
+.projects{
+     margin-top: 90px;
+}
+.inf-card{
+  display: none;
+}
+.name-cont{
+    text-align: center;
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+    }
