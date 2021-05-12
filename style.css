@@ -15,6 +15,7 @@ html{
     margin-top: -280px;
     margin-left: 50px;
     height: 430px;
+    user-select: none;
 }
 #pxl{
     display: none;
@@ -29,6 +30,8 @@ html{
     margin-top: 60px;
     text-align: left;
     position: sticky;
+    cusror: default;
+    user-select: none;
 }
 .information{
     width: 40%;
@@ -47,6 +50,7 @@ html{
     margin-top: -270px;
     width: 300px;
     margin-left: 60px;
+    user-select: none;
 }
 .projects{
     height:auto;
@@ -59,6 +63,8 @@ html{
     margin-top: 120px;
     height:  200px;
     background-color: rgb(240, 240, 240);
+    user-select: none;
+    cursor: default;
 }.card{
     width: 300px;
     height: 320px;
@@ -122,13 +128,6 @@ html{
 .small{
     font-family: OCR A Std, monospace;
     display: inline-block;
-}
-.last{
-    width: 98%;
-    height: 400px;
-    background-color: #411b9c;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 a{
     display: inline-block;
