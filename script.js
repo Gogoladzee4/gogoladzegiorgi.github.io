@@ -6,5 +6,5 @@ window.addEventListener('scroll', function(){
 
     ima.style.right =   value * 2 + 'px';
     ima2.style.bottom =  -50 + value * 0.5 +'px';
-    ima1.style.bottom = 90 + value * 2 + 'px';
+   // ima1.style.bottom = 90 + value * 2 + 'px';
 })
