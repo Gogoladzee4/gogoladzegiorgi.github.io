@@ -15,10 +15,21 @@ html{
     margin-top: -280px;
     margin-left: 50px;
     height: 430px;
-    user-select: none;
 }
 #pxl{
     display: none;
+}
+.skil{
+    width: auto;
+    height: auto;
+    border-radius: 40px;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: rgb(185, 185, 185);
+    padding: 10px 5px;
+    font-weight: bold;
+    cursor: default;
+    user-select: none;
 }
 .name-cont{
     font-size: 25px;
@@ -29,9 +40,9 @@ html{
     margin-right: 500px;
     margin-top: 60px;
     text-align: left;
-    position: sticky;
-    cusror: default;
+    cursor: default;
     user-select: none;
+    position: sticky;
 }
 .information{
     width: 40%;
@@ -43,6 +54,7 @@ html{
 }
 .information h3{
     padding-top: 70px;
+    user-select: none;
 }
 #prlx2{
   width: 400px;
@@ -50,7 +62,6 @@ html{
     margin-top: -270px;
     width: 300px;
     margin-left: 60px;
-    user-select: none;
 }
 .projects{
     height:auto;
@@ -63,8 +74,6 @@ html{
     margin-top: 120px;
     height:  200px;
     background-color: rgb(240, 240, 240);
-    user-select: none;
-    cursor: default;
 }.card{
     width: 300px;
     height: 320px;
@@ -122,12 +131,29 @@ html{
     text-decoration: none;
     text-align: center;
     line-height: 50px;
+    display: none;
     color: white;
     font-size:22px;
+    transition: 0.5s;
+}
+.up.scrol{
+    display: block;
+    transition: 0.5s;
 }
 .small{
     font-family: OCR A Std, monospace;
     display: inline-block;
+}
+.name, .small{
+    cursor: default;
+    user-select: none;
+}
+.last{
+    width: 98%;
+    height: 400px;
+    background-color: #411b9c;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 a{
     display: inline-block;
