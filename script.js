@@ -8,3 +8,11 @@ window.addEventListener('scroll', function(){
     ima2.style.bottom =  -50 + value * 0.5 +'px';
    // ima1.style.bottom = 90 + value * 2 + 'px';
 })
+    $(window).scroll(function(){
+        if(this.scrollY > 20){
+            $('.up').addClass("scrol");
+    
+        }else{
+            $('.up').removeClass("scrol");
+        }
+    });
